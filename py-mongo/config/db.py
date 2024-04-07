@@ -1,10 +1,10 @@
 from pymongo import MongoClient
 
-# const uri = "mongodb://admin:password@foshanxiaoyu.com:27017/"
+# const uri = "mongodb://user:<password>@foshanxxxxxx.com:[port]/"
 # 这个地方如果不加<,authSource="admin"> 自已的mongodb巨坑
 
 
-conn = MongoClient('mongodb://admin:password@foshanxiaoyu.com:27017/fastDB' ,authSource="admin")
+conn = MongoClient('mongodb://use:<password>@foshanxxxxxx.com:[prot]/fastDB' ,authSource="admin")
 
 # Create a new database.
 # use(database)
